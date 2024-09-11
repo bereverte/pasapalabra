@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pasapalabra</title>
+  </head>
+  <body>
+    <div class="screen active" id="welcome-screen">
+      <div class="pasapalabra-screen">
+        <p>pasapalabra</p>
+      </div>
+      <button id="start-btn" class="btn">Start</button>
+    </div>
+    <div class="screen" id="game-screen">
+      <h3 id="letter-display"></h3>
+      <p id="definition-display"></p>
+      <button id="wrong-btn" class="btn">Oh, oh...</button>
+      <button id="correct-btn" class="btn">Correcto!</button>
+    </div>
+    <div class="screen" id="end-screen">
+      <h3>Enhorabuena, has completado el rosco!</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
